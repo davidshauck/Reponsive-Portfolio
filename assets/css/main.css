@@ -3,10 +3,10 @@
 }
 
 header {
-    width: 100%;
-    background: white;
-    border-bottom: .5px solid #777777;
-    margin-top: 0px;
+  width: 100%;
+  background: white;
+  border-bottom: .5px solid #777777;
+  margin-top: 0px;
 }
 
 body {
@@ -47,9 +47,6 @@ section {
 
 .wrapTop {
   width: 960px;
-  /* padding: 20px;
-  margin: 0 auto; */
-  /* margin-bottom: 20px; */
   background-color: white;
   clear: both;
 }
@@ -133,7 +130,6 @@ a:hover {
 
   /* media queries */
 
-
   @media screen and (max-width: 968px) {
     .wrapper {
       width: 768px;
@@ -144,11 +140,9 @@ a:hover {
       clear: both;
     }
     #bullets {
-      /* float: left; */
       width: 495px;
       padding: 20px 0px 20px 20px;
       background-color: #fff;
-      /* display: inline-block; */
     }
     .wrapTop {
       width: 768px;
@@ -164,63 +158,21 @@ a:hover {
       background-color: white;
       clear: both;
     }
-
     .wrapTop {
       width: 100%;
       padding: 0px;
-      /* padding: 20px;
-      margin: 0 auto; */
-      /* margin-bottom: 20px; */
-      /* background-color: white; */
-      /* clear: both; */
     }
-
-    /* li a {
-      clear: all;
-      margin-right: 10px;
-      padding-left: 10px;
-    } */
     #name {
-      /* clear: all; */
-      /* display: block; */
       width: 100%;
-      /* margin: 0px; */
     }
-    /* ul { */
-      /* float: left; */
-      /* width: 100% !important; */
-      /* display: block; */
-    /* } */
-    /* li a { */
-      /* clear: all;
-      width: 100% !important; */
-      /* display: block; */
-    /* } */
     #bullets {
-      /* float: left; */
-      /* width: 295px; */
-      /* clear: both; */
-      /* padding: 20px 0px 20px 20px; */
-      /* background-color: black; */
-      /* display: inline-block; */
       margin: 0px;
       padding: 0px;
-      /* clear: all; */
       width: 100%;
       display: flex;
       justify-content: center;
-      /* width: 100% !important; */
     }
-    /* section { */
-      /* float: left; */
-      /* margin-bottom: 20px; */
-      /* background: #fff; */
-      /* display: flex;
-      justify-content: center; */
-      /* border-bottom: solid .5px #888; */
-      /* display: block; */
-    /* } */
-
+    li {
+      padding: 10px;
+    }
   }
-
-
